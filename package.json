@@ -1,0 +1,30 @@
+{
+  "name": "crypto-wallet-address-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha './test/**/*.spec.js'",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitguptaoct21/crypto-wallet-address-generator.git"
+  },
+  "author": "Ankit Gupta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ankitguptaoct21/crypto-wallet-address-generator/issues"
+  },
+  "homepage": "https://github.com/ankitguptaoct21/crypto-wallet-address-generator#readme",
+  "dependencies": {
+    "bip32": "^2.0.6",
+    "bip32-path": "^0.4.2",
+    "bip39": "^3.0.2",
+    "bitcoinjs-lib": "^5.2.0",
+    "chai": "^4.2.0",
+    "convict": "^6.0.0",
+    "ethereumjs-util": "^7.0.5",
+    "mocha": "^8.1.3"
+  }
+}
